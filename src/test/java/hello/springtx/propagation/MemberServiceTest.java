@@ -125,6 +125,7 @@ class MemberServiceTest {
      * MemberRepository @Transactional:ON
      * LogRepository @Transactional:ON Exception
      */
+    //테스트케이스 실패..?
     @Test
     void recoverException_fail() {
         //given
@@ -143,6 +144,7 @@ class MemberServiceTest {
      * MemberRepository @Transactional:ON
      * LogRepository @Transactional(REQUIRES_NEW) Exception
      */
+    //테스트케이스 실패..?
     @Test
     void recoverException_success() {
         //given
